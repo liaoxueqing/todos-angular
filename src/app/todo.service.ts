@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {Observable, of} from 'rxjs';
 import {TODOS} from './todos';
 import {Todo} from './todo';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -19,6 +19,7 @@ export class TodoService {
   }
 
   getTodoById(id): Observable<Todo> {
-    return of(TODOS.find(todo => todo.id === id));
+    return this.http.get<Todo>('http://localhost:8080/todos/' + id);
+    // return of(TODOS.find(todo => todo.id === id));
   }
 }
