@@ -1,0 +1,6 @@
+.todo-list {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  font-size: 22px;
+}
