@@ -1,5 +1,6 @@
 <div class="todo-list">
   <h2>List</h2>
+  <div><button routerLink="add" title="新增">新增</button></div>
   <ul>
     <li *ngFor="let todo of todos">
       <a routerLink="detail/{{todo.id}}">

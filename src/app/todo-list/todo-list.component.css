@@ -17,3 +17,11 @@
 .todo-list a:hover {
   color: darkslategray;
 }
+
+.todo-list button {
+  padding: 6px 12px;
+  background: darkgray;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
