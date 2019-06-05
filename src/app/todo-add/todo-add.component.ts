@@ -25,7 +25,9 @@ export class TodoAddComponent implements OnInit {
   add(content: string): void {
     content = content.trim();
     if (!content) { return; }
-    // this.todoService.addTodo({ content } as Todo);
+    this.todoService.addTodo({ content, isChecked: false }).subscribe(() => {
+      this.goBack();
+    });
   }
 
 }

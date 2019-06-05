@@ -19,4 +19,8 @@ export class TodoService {
   getTodoById(id): Observable<Todo> {
     return this.http.get<Todo>('http://localhost:8080/todos/' + id);
   }
+
+  addTodo(todo): Observable<Todo> {
+    return this.http.post<Todo>('http://localhost:8080/todos', todo);
+  }
 }
