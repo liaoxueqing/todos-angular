@@ -1,0 +1,12 @@
+.todo-detail {
+  text-align: center;
+  font-size: 22px;
+}
+
+.todo-detail button {
+  padding: 6px 12px;
+  background: darkgray;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
