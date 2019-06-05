@@ -1,3 +1,9 @@
-<p>
-  todo-add works!
-</p>
+<div class="todo-add">
+  <div>
+    <input type="text" #content placeholder="content">
+  </div>
+  <div>
+    <button (click)="goBack()">Cancel</button>
+    <button (click)="add(content.value)">Save</button>
+  </div>
+</div>
