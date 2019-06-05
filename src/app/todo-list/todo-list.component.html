@@ -1,7 +1,9 @@
 <div style="text-align: center">
   <ul class="todo-list">
     <li *ngFor="let todo of todos">
-      <span class="badge">{{todo.id}}</span> {{todo.content}}
+      <a routerLink="/{{todo.id}}">
+        <span class="badge">{{todo.id}}</span> {{todo.content}}
+      </a>
     </li>
   </ul>
 </div>
