@@ -4,3 +4,12 @@
   list-style: none;
   font-size: 22px;
 }
+
+.todo-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.todo-list a:hover {
+  color: darkslategray;
+}
