@@ -1,8 +1,12 @@
 .todo-list {
+  text-align: center;
+  font-size: 22px;
+}
+
+.todo-list ul{
   display: inline-block;
   text-align: left;
   list-style: none;
-  font-size: 22px;
 }
 
 .todo-list a {
