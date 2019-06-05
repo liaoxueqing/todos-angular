@@ -1,3 +1,7 @@
+This is a front service for todos. The backend service repo is [todos-backend](https://github.com/liaoxueqing/todos-backend).
+If you want to this application can work, you need run the backend and start the frontend
+
+------------------------------------------------------------------------------------------------------------
 # TodosAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
