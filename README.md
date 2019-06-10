@@ -4,8 +4,11 @@ The backend service repo is [todos-backend](https://github.com/liaoxueqing/todos
 If you want to this application can work, you need run the backend and start the frontend
 
 This TodosAngular and TodosBackend project have features:
+
 1.view the todo list (home page)
+
 2.visit the detail of every todo (click every todo item can redict to the detail page)
+
 3.add a new todo item (click the new button can redict to the create page)
 
 ------------------------------------------------------------------------------------------------------------
